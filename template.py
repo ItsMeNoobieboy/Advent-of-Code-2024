@@ -3,6 +3,8 @@ import os, sys, re, math, itertools, functools, collections, operator
 input_file = os.path.join(os.path.dirname(__file__), "input.txt")
 with open(input_file, "r") as f:
     lines = f.readlines()
+    # For parsing lines of integers
+    # lines = [[int(n) for n in line.split(" ")] for line in lines]
 
 
 def part_1() -> str | int:
