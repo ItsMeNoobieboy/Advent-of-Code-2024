@@ -1,4 +1,4 @@
-import os, sys, re, math, itertools, functools, collections, operator
+import os, sys, re, math, itertools, functools, collections, copy
 
 input_file = os.path.join(os.path.dirname(__file__), "input.txt")
 with open(input_file, "r") as f:
