@@ -1,8 +1,8 @@
-import os, sys, re, math, itertools, functools, collections, copy
+import os, sys, re, math, itertools, functools, collections, copy, fractions
 
 input_file = os.path.join(os.path.dirname(__file__), "input.txt")
 with open(input_file, "r") as f:
-    lines = f.readlines()
+    lines = [line.strip() for line in f.readlines()]
     # For parsing lines of integers
     # lines = [[int(n) for n in line.split(" ")] for line in lines]
 
